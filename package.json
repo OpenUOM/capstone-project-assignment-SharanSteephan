@@ -1,7 +1,7 @@
 {
   "name": "capstone-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is the capstone project of the Trainee Full-Stack Developer Programme offered by University of Moratuwa (https://open.uom.lk/). In this project, you will create an information management system for a school. The following technologies are used.",
   "main": "index.js",
   "scripts": {
     "test": "npm i forever --prefix ./frontend && export NODE_ENV=test-backend && NODE_OPTIONS='--experimental-vm-modules --experimental-specifier-resolution=node' jest --verbose ./backend/test --forceExit",
@@ -30,5 +30,8 @@
     "cross-env": "^7.0.3",
     "jest": "^27.5.1",
     "supertest": "^6.2.2"
+  },
+  "directories": {
+    "doc": "docs"
   }
 }
